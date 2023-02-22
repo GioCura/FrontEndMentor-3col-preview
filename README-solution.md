@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop design with active state](images/screenhot-desktop-active.png)
+![Desktop design with active state](images/screenshot-desktop-active.png)
 ![Mobile design](images/screenshot-mobile.png)
 
 ### Links
