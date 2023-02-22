@@ -76,6 +76,7 @@ button {
 .text {
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 1.5rem;
+  line-height: 2.5rem;
 }
 
 .btn {
@@ -135,8 +136,8 @@ button {
   }
 
   .card {
-    width: 28rem;
-    padding: 5.5rem 3.5rem;
+    width: 30rem;
+    padding: 5.5rem 4.5rem;
     gap: 2.5rem;
   }
 
