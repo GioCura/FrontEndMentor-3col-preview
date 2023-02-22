@@ -56,10 +56,10 @@ Users should be able to:
 
 ### Continued development
 
-- One major mistake here, I forgot to universally set margin and padding to 0. I mistakenly put those attributes in the html tag. I can't be bothered to set the paddings and margins of this card again, so I'm leaving it as such.
+- One major mistake here, I forgot to universally set margin and padding to 0. I mistakenly put those attributes in the html tag. \*I edited the code with that now.
 
-- HOWEVER, I'll remember not to do that again.
+- I'll remember not to do that again.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/GioCura)
+- Frontend Mentor - [@GioCura](https://www.frontendmentor.io/profile/GioCura)
