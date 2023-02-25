@@ -32,8 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/GioCura/FrontEndMentor-3col-preview)
-- Live Site URL: [Add live site URL here](https://gc7-3columnpreview.netlify.app)
+- Live Site URL: [Live Site](https://gc7-3columnpreview.netlify.app)
 
 ## My process
 
@@ -43,6 +42,7 @@ Users should be able to:
 - CSS
 - Flexbox
 - Mobile-first workflow
+- (Updated 02/25/2023) - BEM
 
 ### What I learned
 
