@@ -21,20 +21,35 @@ button {
   cursor: pointer;
 }
 
-main {
+main,
+.card,
+.card__buttton {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
 
+main,
+.card__button {
+  align-items: center;
+}
+
+main,
+.card {
+  flex-direction: column;
+}
+
+main {
   margin: 5rem 0rem 5rem 0rem;
 }
 
-.card {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.card__title,
+.card__button--sedans:hover,
+.card__button--suvs:hover,
+.card__button--luxury:hover {
+  color: hsl(0, 0%, 95%);
+}
 
+.card {
   width: 31rem;
   padding: 5rem 3.75rem;
   gap: 2.5rem;
@@ -46,7 +61,6 @@ main {
 
 .card__title {
   font-family: "Big Shoulders Display", cursive;
-  color: hsl(0, 0%, 95%);
 
   font-size: 3.5rem;
   letter-spacing: 0.1rem;
@@ -75,9 +89,7 @@ main {
 }
 
 .card__button {
-  display: flex;
   align-items: flex-start;
-  justify-content: center;
 
   background-color: hsl(0, 0%, 95%);
   border-radius: 50px;
@@ -106,12 +118,6 @@ main {
 .card__button:hover {
   background-color: transparent;
   border-color: hsl(0, 0%, 95%);
-}
-
-.card__button--sedans:hover,
-.card__button--suvs:hover,
-.card__button--luxury:hover {
-  color: hsl(0, 0%, 95%);
 }
 
 .attribution {
