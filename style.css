@@ -21,12 +21,7 @@ button {
   cursor: pointer;
 }
 
-/* h1 {
-  margin: 0;
-  padding: 0;
-} */
-
-.cards {
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,11 +40,11 @@ button {
   gap: 2.5rem;
 }
 
-.logo {
+.card__logo {
   width: 5rem;
 }
 
-.title {
+.card__title {
   font-family: "Big Shoulders Display", cursive;
   color: hsl(0, 0%, 95%);
 
@@ -59,27 +54,27 @@ button {
   text-transform: uppercase;
 }
 
-.card-sedans {
+.card--sedans {
   background-color: hsl(31, 77%, 52%);
   border-radius: 10px 10px 0 0;
 }
 
-.card-suvs {
+.card--suvs {
   background-color: hsl(184, 100%, 22%);
 }
 
-.card-luxury {
+.card--luxury {
   background-color: hsl(179, 100%, 13%);
   border-radius: 0 0 10px 10px;
 }
 
-.text {
+.card__text {
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 1.5rem;
   line-height: 2.5rem;
 }
 
-.btn {
+.card__button {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -96,26 +91,26 @@ button {
   transition: all 0.3s;
 }
 
-.btn-sedans {
+.card__button--sedans {
   color: hsl(31, 77%, 52%);
 }
 
-.btn-suvs {
+.card__button--suvs {
   color: hsl(184, 100%, 22%);
 }
 
-.btn-luxury {
+.card__button--luxury {
   color: hsl(179, 100%, 13%);
 }
 
-.btn:hover {
+.card__button:hover {
   background-color: transparent;
   border-color: hsl(0, 0%, 95%);
 }
 
-.btn-sedans:hover,
-.btn-suvs:hover,
-.btn-luxury:hover {
+.card__button--sedans:hover,
+.card__button--suvs:hover,
+.card__button--luxury:hover {
   color: hsl(0, 0%, 95%);
 }
 
@@ -129,7 +124,7 @@ button {
 }
 
 @media (min-width: 900px) {
-  .cards {
+  main {
     height: 90%;
     flex-direction: row;
     margin: 0;
@@ -141,15 +136,15 @@ button {
     gap: 2.5rem;
   }
 
-  .text {
+  .card__text {
     padding-bottom: 5rem;
   }
 
-  .card-sedans {
+  .card--sedans {
     border-radius: 10px 0 0 10px;
   }
 
-  .card-luxury {
+  .card--luxury {
     border-radius: 0px 10px 10px 0px;
   }
 }
